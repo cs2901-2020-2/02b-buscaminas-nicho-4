@@ -23,9 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a5375a7-26e9-4f4c-b245-1732ab8aef33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02b-buscaminas-nicho-4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02b-buscaminas-nicho-4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/02b-buscaminas-nicho-4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_0_0_beta1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/buscaminas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/buscaminas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BuscaminasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BuscaminasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/buscaminas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/buscaminas.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +47,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -52,11 +61,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="buscaminas" />
       <module name="02b-buscaminas-nicho-4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,6 +148,7 @@
       <updated>1599944748796</updated>
       <workItem from="1599944773653" duration="1432000" />
       <workItem from="1599946667993" duration="5098000" />
+      <workItem from="1600009737290" duration="3187000" />
     </task>
     <servers />
   </component>
@@ -145,10 +172,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1599931968310" />
-    <state x="137" y="14" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599932752967">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="137" y="41" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600010228336">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="137" y="14" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599932752967" />
+    <state x="137" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1600010228336" />
     <state x="412" y="161" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599932720309">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -161,22 +189,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599932601147" />
-    <state width="1323" height="85" key="GridCell.Tab.0.bottom" timestamp="1599946638115">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1310" height="113" key="GridCell.Tab.0.bottom" timestamp="1600012577595">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1323" height="85" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599946638115" />
-    <state width="1323" height="85" key="GridCell.Tab.0.center" timestamp="1599946638115">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1310" height="113" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1600012577595" />
+    <state width="1310" height="113" key="GridCell.Tab.0.center" timestamp="1600012577594">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1323" height="85" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599946638115" />
-    <state width="1323" height="85" key="GridCell.Tab.0.left" timestamp="1599946638115">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1310" height="113" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1600012577594" />
+    <state width="1310" height="113" key="GridCell.Tab.0.left" timestamp="1600012577592">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1323" height="85" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599946638115" />
-    <state width="1323" height="85" key="GridCell.Tab.0.right" timestamp="1599946638115">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1310" height="113" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1600012577592" />
+    <state width="1310" height="113" key="GridCell.Tab.0.right" timestamp="1600012577594">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1323" height="85" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599946638115" />
+    <state width="1310" height="113" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1600012577594" />
+    <state x="459" y="311" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600010378105">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="459" y="311" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741@0.27.1366.741" timestamp="1600010378105" />
     <state x="65" y="0" key="new project wizard" timestamp="1599932460685">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

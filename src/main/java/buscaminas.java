@@ -9,7 +9,7 @@ public class buscaminas {
     //int tabla [][];
 
     //Crea el arreglo de nxn que representa la tabla
-    public static void creartablas(int[][] tabla,string[][] tablajuego , int n){
+    public static void creartablas(int[][] tabla,String[][] tablajuego , int n){
         for (int i = 0; i <= n; i++){
             for (int j = 0; j <= n; j++){
                 tabla[i][j] = 0;
@@ -38,7 +38,7 @@ public class buscaminas {
     }
 
     //Imprime la tabla del juego rellenada de o
-    public static void imprimirtabla(string[][] tabla, int n){
+    public static void imprimirtabla(String[][] tabla, int n){
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
                 System.out.println(tabla[i][j]);
@@ -47,16 +47,20 @@ public class buscaminas {
         }
     }
 
-    public static void escoger_casilla(int[][] tabla, string[][] tablajuego,int n, boolean estado){
-        int x = scannerObj.nextInt();
-        int y = scannerObj.nextInt();
+    public static void escoger_casilla(int[][] tabla, String[][] tablajuego,int n, boolean estado){
+        Scanner value_x= new Scanner(System.in);
+        Scanner value_y= new Scanner(System.in);
+        int x = value_x.nextInt();
+        int y = value_y.nextInt();
         boolean valid_coord = true;
         while (x > n || y > n){
             logger.info("Ingresa coordenadas validas: ");
-            x = scannerObj.nextInt();
-            y = scannerObj.nextInt();
+            Scanner value_xn= new Scanner(System.in);
+            Scanner value_yn= new Scanner(System.in);
+            x = value_xn.nextInt();
+            y = value_yn.nextInt();
         }
-        tablajuego[x][y] = tabla[x][y];
+        //tablajuego[x][y] = tabla[x][y];
         imprimirtabla(tablajuego,n);
         if (tabla[x][y] == 1){
             estado = false;
@@ -71,7 +75,7 @@ public class buscaminas {
 
         int n = scannerObj.nextInt();
         int[][] tabla = new int[n][n];
-        string[][] tablajuego = new string[n][n];
+        String[][] tablajuego = new String[n][n];
 
         creartablas(tabla, tablajuego, n);
 
