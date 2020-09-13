@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: FizzBuzzTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.446 sec <<< FAILURE!
+testCase0(FizzBuzzTest)  Time elapsed: 0.028 sec  <<< FAILURE!
+java.lang.AssertionError: lists don't have the same size did not expect to find [15] but found [0]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:1019)
+	at org.testng.Assert.assertEquals(Assert.java:995)
+	at FizzBuzzTest.generic(FizzBuzzTest.java:31)
+	at FizzBuzzTest.testCase0(FizzBuzzTest.java:14)
+
+testCase1(FizzBuzzTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: lists don't have the same size did not expect to find [65] but found [0]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:1019)
+	at org.testng.Assert.assertEquals(Assert.java:995)
+	at FizzBuzzTest.generic(FizzBuzzTest.java:31)
+	at FizzBuzzTest.testCase1(FizzBuzzTest.java:18)
+
+testCase2(FizzBuzzTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: lists don't have the same size did not expect to find [12] but found [0]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:1019)
+	at org.testng.Assert.assertEquals(Assert.java:995)
+	at FizzBuzzTest.generic(FizzBuzzTest.java:31)
+	at FizzBuzzTest.testCase2(FizzBuzzTest.java:21)
+
+testCase3(FizzBuzzTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: lists don't have the same size did not expect to find [229] but found [0]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:1019)
+	at org.testng.Assert.assertEquals(Assert.java:995)
+	at FizzBuzzTest.generic(FizzBuzzTest.java:31)
+	at FizzBuzzTest.testCase3(FizzBuzzTest.java:24)
+
