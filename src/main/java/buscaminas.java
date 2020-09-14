@@ -6,7 +6,6 @@ public class buscaminas {
 
     static final Logger logger = Logger.getLogger(buscaminas.class.getName());
 
-    //Crea el arreglo de nxn que representa la tabla
     public static void creartablas(int[][] tabla, String[][] tablajuego , int n){
         for (int i = 0; i < n; i++){
             for (int j = 0; j < n; j++){
@@ -15,10 +14,8 @@ public class buscaminas {
             }
         }
         set_minas(tabla, tablajuego, n);
-        //imprimirtabla(tabla, tablajuego, n);
     }
 
-    //Coloca las minas cambiando 0s por 1s
     public static void set_minas(int[][] tabla, String [][] tablajuego, int n){
         Random rand = new Random();
         int cant_minas = rand.nextInt(n+1);
@@ -35,7 +32,6 @@ public class buscaminas {
         escoger_casilla(tabla, tablajuego, n);
     }
 
-    //Imprime la tabla del juego rellenada de o
     public static void imprimirtabla(int [][] tabla,String[][] tablajuego, int n){
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
@@ -60,7 +56,6 @@ public class buscaminas {
             x = value_xn.nextInt();
             y = value_yn.nextInt();
         }
-        //tablajuego[x][y] = tabla[x][y]
         if (tabla[x][y] == 0){
             tablajuego[x][y] = "x";
             imprimirtabla(tabla, tablajuego,n);
@@ -73,7 +68,6 @@ public class buscaminas {
 
 
     public static void main(String[] args){
-        boolean estado = true;
         logger.info("Ingresa el tamaño de la tabla: ");
         Scanner scannerObj = new Scanner(System.in);
 
